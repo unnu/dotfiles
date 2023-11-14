@@ -1,0 +1,10 @@
+# vim
+alias v=nvim
+alias vim=nvim
+
+# docker
+alias dc=docker-compose
+alias web="docker-compose exec web"
+
+# fzf
+export FZF_DEFAULT_COMMAND='ag -l --path-to-ignore ~/.ignore --nocolor --hidden -g ""'
